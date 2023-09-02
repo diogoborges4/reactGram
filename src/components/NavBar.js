@@ -12,6 +12,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { logout, reset } from "../slices/authSlice";
 import { useState } from "react";
+import { uploads } from "../utils/config";
 
 const NavBar = () => {
   const { auth } = useAuth();
