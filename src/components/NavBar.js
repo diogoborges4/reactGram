@@ -40,7 +40,7 @@ const NavBar = () => {
 
   return (
     <nav id="nav">
-      <Link to="/">ReactGram</Link>
+      <Link to="/"><img src={`${uploads}/photos/Reactgram.png`} alt={"reactgram"} /></Link>
       <form id="search-form" onSubmit={handleSearch}>
         <BsSearch />
         <input
