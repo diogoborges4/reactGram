@@ -1,6 +1,5 @@
 import { api, requestConfig } from "../utils/config";
 
-const token = getTokenFromSomewhere();
 
 const publishPhotos = async (data, token) => {
   const config = requestConfig("POST", data, token, true);
