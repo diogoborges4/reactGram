@@ -1,8 +1,5 @@
 export const api = "https://backend-vkyt.vercel.app/api"
 export const uploads = "https://backend-vkyt.vercel.app/uploads"
-import Cookies from 'js-cookie'
-
-const token = Cookies.get('accessToken')
 
 export const requestConfig = (method, data, token = null, image = null) => {
 
